@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "custom-banner-webpart-client-side-solution",
+    "id": "3f4ec343-78f1-4fa5-b5da-a58a6c6830c6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "custom-banner-webpart description"
+      },
+      "longDescription": {
+        "default": "custom-banner-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "custom-banner-webpart Feature",
+        "description": "The feature that activates elements of the custom-banner-webpart solution.",
+        "id": "4b47041d-5fb6-4f2d-a1e8-9f43a1ff10bf",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/custom-banner-webpart.sppkg"
+  }
+}
